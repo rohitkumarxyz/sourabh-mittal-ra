@@ -80,7 +80,7 @@ export function Compliance() {
                 </div>
                 <div className="flex items-center justify-between p-3 rounded-lg bg-accent/5 border border-accent/10">
                   <span className="text-sm font-medium text-foreground">BSE Enlistment</span>
-                  <span className="text-sm font-semibold text-accent">5349</span>
+                  <span className="text-sm font-semibold text-accent">6761</span>
                 </div>
               </div>
             </CardContent>
