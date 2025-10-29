@@ -22,6 +22,23 @@ export default function Home() {
       <Testimonials />
       <Contact />
       <Footer />
+      
+      {/* Floating WhatsApp Button */}
+      <div className="fixed bottom-6 left-6 z-50">
+        <a 
+          href="https://wa.me/917877788291" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="flex items-center justify-center w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 animate-pulse"
+          title="WhatsApp +91 78777 88291"
+        >
+          <img 
+            src="/whatsapp.png" 
+            alt="WhatsApp" 
+            className="w-8 h-8"
+          />
+        </a>
+      </div>
     </main>
   )
 }
